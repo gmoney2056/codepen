@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+}
+
+.first-paragraph p  {
+    margin: 0px;
+}
+
+.page {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-image: linear-gradient(to right bottom, #484848, #161616);
+    display: flex;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.first-paragraph {
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-paragraph {
+    color: lightgrey;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+}
+
+mark {
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.left {
+    width: 580px
+}
+
+.box-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+  }
+
+
+.box-links > .sign-in a{
+    text-decoration: none;
+    color: black;
+    font-size: 33px;
+    padding: 18px 24px;
+    background-color: lightgreen;
+    border-radius: 2px;
+    height: 123;
+}
+
+.box-links > .learn a{
+    color: white;
+    text-decoration: none;
+    font-size: 33px;
+    padding: 18px 24px;
+    background-color: black;
+    border-radius: 2px;
+    height: 123;
+    margin-left: 10px;
+}
+
+.img-title {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right > .img-title mark {
+    color: skyblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #5d5353;
+    color: white;
+    text-align: center;
+    font-size: 1.25em;
+
+}
+
+.footer > .CodePen-for mark {
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+
+}
+
+.codepen-for {
+    border: 2px solid lightgray
+}
+
+.image {
+    margin-left: 22px;
+}
